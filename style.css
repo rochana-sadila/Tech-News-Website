@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&display=swap');
+
+/* Color Variables */
+:root {
+  --bg-color: #151516;
+  --menu-bg: #212529;
+  --accent-color: #ccc;
+  --card-bg: #1e1e1e;
+  --text-color: #ffffff;
+  --button-bg:#fff;
+  --button-hover:#cccccc76;
+}
+
+/* Base Layout */
+body {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--menu-bg) !important;
+}
+.navbar a,
+.navbar-brand,
+.navbar .nav-link {
+  color: var(--accent-color) !important;
+}
+
+/* Dropdown */
+.dropdown-menu {
+  background-color: var(--menu-bg) !important;
+  border: none;
+}
+.dropdown-item {
+  color: var(--accent-color) !important;
+}
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #222 !important;
+  color: var(--accent-color) !important;
+}
+
+.navbar-brand{
+    font-family: "Gemunu Libre", sans-serif;
+    font-size: 25px;
+}
+
+
+/* Card Styling */
+.card {
+  background-color: var(--card-bg);
+  border: none;
+}
+.card-title {
+  color: var(--accent-color);
+  font-weight: 600;
+}
+.card-text {
+  color: #ccc;
+}
+
+.card-text.small.text-muted {
+  color: #ccc !important;
+}
+
+
+/* Buttons */
+.btn-info {
+  background-color: var(--button-bg);
+  border: none;
+  color: #000;
+}
+.btn-info:hover,
+.btn-info:focus {
+  background-color: #ccc;
+  color: #fff;
+}
+
+/* Links */
+a,
+a:hover,
+a:focus {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.btn-outline-success:hover{
+      background-color: var(--button-hover);
+}
+
+/* Search Input (modal & search page) */
+#search-input,
+#search-query {
+  background-color: #1e1e1e;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+}
+#search-input::placeholder,
+#search-query::placeholder {
+  color: var(--accent-color);
+}
+#search-input:focus,
+#search-query:focus {
+  border-color: var(--accent-color);
+  box-shadow: 0 0 5px var(--accent-color);
+  outline: none;
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--accent-color);
+  border-radius: 4px;
+}

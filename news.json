@@ -1,0 +1,40 @@
+{
+  "articles": [
+    {
+      "title": "Why Web3 Is More Than Just Cryptocurrency",
+      "description": "Web3 is changing how we think about ownership, privacy, and data. Here's what you need to know.",
+      "image": "https://th.bing.com/th/id/OIP.7toPnXWZVTU_FwUEXL4AvgHaE7?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "content": "<p>Web3 isn't just about crypto. It's about decentralization. Apps built on blockchain give users real control over their data and digital identity. DAOs and NFTs are just the beginning.</p><p>In 2025, Web3 will expand into social platforms, data ownership, and even decentralized finance that's user-first.</p>",
+      "category": "New Era",
+      "date": "2025-07-10"
+
+    },
+    {
+      "title": "Top 5 AI Tools to Boost Productivity in 2025",
+      "description": "Discover how AI tools are helping developers, writers, and designers work smarter and faster.",
+      "image": "https://via.placeholder.com/600x300?text=AI+Tools+2025",
+      "content": "<p>In 2025, AI tools like ChatGPT, Midjourney, and GitHub Copilot are helping millions save time by automating tasks.</p><img src='https://via.placeholder.com/600x300?text=AI+Productivity' alt='AI Productivity' style='width:100%; border-radius:8px; margin: 1rem 0;' /><p>Whether you write, code, or design, there's an AI tool built for you.</p>",
+      "category": "AI",
+      "date": "2025-07-10"
+
+    },
+    {
+      "title": "Why Web3 Is More Than Just Cryptocurrency",
+      "description": "Web3 is changing how we think about ownership, privacy, and data. Here's what you need to know.",
+      "image": "https://via.placeholder.com/600x300?text=Web3",
+      "content": "<p>Web3 isn't just about crypto. It's about decentralization. Apps built on blockchain give users real control over their data and digital identity. DAOs and NFTs are just the beginning.</p><p>In 2025, Web3 will expand into social platforms, data ownership, and even decentralized finance that's user-first.</p>",
+      "category": "Blockchain",
+      "date": "2025-07-10"
+
+    },
+    {
+      "title": "The Rise of Edge Computing in IoT Devices",
+      "description": "Edge computing allows devices to process data locally, making IoT faster and smarter.",
+      "image": "https://via.placeholder.com/600x300?text=Edge+Computing",
+      "content": "<p>With the explosion of IoT devices, cloud computing alone isn't fast enough. Edge computing solves this by processing data directly on the device or nearby — reducing latency and improving efficiency.</p><p>This is essential in self-driving cars, smart homes, and wearables where real-time data is critical.</p>",
+      "category": "IoT",
+      "date": "2025-07-10"
+
+    }
+  ]
+}
